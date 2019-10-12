@@ -1,0 +1,61 @@
+
+body,
+html {
+  width: 100%;
+  height: 100%; 
+}
+
+body {
+ font-family: 'Dancing Script', cursive;
+
+}
+
+hr {
+  max-width: 65px;
+  border-width: 3px;
+  border-color: #026375; 
+}
+
+.faded {
+  color: rgba(255, 255, 255, 0.8); 
+}
+
+header.startup {
+  background-position: center;
+  background-image: url("dancee.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+header.startup hr {
+  margin-top: 100px;
+  margin-bottom: 30px; 
+}
+
+header.startup h1 {
+  margin-top: 150px;
+  font-size: 8em; 
+  color: #F51C74;
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-xl {
+  padding: 1rem 2rem; 
+}
+
+.btn-primary {
+  background-color: #2989E5;
+ }
+
+.btn-primary:hover {
+  background-color: #2989E5;
+  
+  border-width: 5px;
+  cursor: pointer;
+}
